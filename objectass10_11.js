@@ -5,7 +5,7 @@ var employee = {
     emp_address: "xyz"
 };
 console.table(employee);
-//traverse
+//traverse for in loop is used
 for (var key in employee) {
     console.log(key);
     console.log(employee[key]);
