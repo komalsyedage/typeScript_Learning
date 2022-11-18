@@ -4,7 +4,10 @@ var Passenger = /** @class */ (function () {
         this.lastName = lastName;
         this.frequentFlyerno = flightno;
     }
+    Passenger.prototype.display = function () {
+        console.log(this.firstName + " " + this.lastName + " " + this.frequentFlyerno);
+    };
     return Passenger;
 }());
 var passenger = new Passenger("Jsck", "Sparrow", 102);
-console.log(passenger.firstName + " " + passenger.lastName + " " + passenger.frequentFlyerno);
+console.log(passenger);
