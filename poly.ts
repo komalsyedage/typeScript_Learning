@@ -20,7 +20,7 @@ class Manger extends Employee {
     }
     // overriding parent class print method .
     public Print(): void {
-        super.Print()
+        super.Print()   //super is used for calling parent class constructor for this child class
         console.log(`${this.firstName} ${this.lastName} - ${this.designation}`);
     }
 }
